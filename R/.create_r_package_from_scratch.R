@@ -80,7 +80,7 @@ if(FALSE) {
   usethis::use_pipe()
 }
 
-kwb.pkgbuild::create_empty_branch_ghpages("kwb.swmm")
+kwb.pkgbuild::create_empty_branch_ghpages("kwb.infoworks")
 # ---------------------
 
 # erstellen einer Funktion mit Dokumentation
