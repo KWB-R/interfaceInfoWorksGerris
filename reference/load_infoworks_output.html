@@ -127,7 +127,7 @@ parameter conversion table are selected." />
   <div class="col-md-9 contents">
     <div class="page-header">
     <h1>Load the Infoworks Output file (csv)</h1>
-    <small class="dont-index">Source: <a href='https://github.com/KWB-R/kwb.infoworks/blob/master/R/01_load_infoworks_output.R'><code>R/01_load_infoworks_output.R</code></a>, <a href='https://github.com/KWB-R/kwb.infoworks/blob/master/R/infoworks_gerris_functions.R'><code>R/infoworks_gerris_functions.R</code></a></small>
+    <small class="dont-index">Source: <a href='https://github.com/KWB-R/kwb.infoworks/blob/master/R/01_load_infoworks_output.R'><code>R/01_load_infoworks_output.R</code></a></small>
     <div class="hidden name"><code>load_infoworks_output.Rd</code></div>
     </div>
 
@@ -138,9 +138,7 @@ donwstream and the specified simulation name. All parameter listed in the
 parameter conversion table are selected.</p>
     </div>
 
-    <pre class="usage"><span class='fu'>load_infoworks_output</span><span class='op'>(</span><span class='va'>iw_output_folder</span>, <span class='va'>simulation_name</span><span class='op'>)</span>
-
-<span class='fu'>load_infoworks_output</span><span class='op'>(</span><span class='va'>iw_output_folder</span>, <span class='va'>simulation_name</span><span class='op'>)</span></pre>
+    <pre class="usage"><span class='fu'>load_infoworks_output</span><span class='op'>(</span><span class='va'>iw_output_folder</span>, <span class='va'>simulation_name</span>, <span class='va'>pct</span><span class='op'>)</span></pre>
 
     <h2 class="hasAnchor" id="arguments"><a class="anchor" href="#arguments"></a>Arguments</h2>
     <table class="ref-arguments">
@@ -151,15 +149,13 @@ parameter conversion table are selected.</p>
     </tr>
     <tr>
       <th>simulation_name</th>
-      <td></td>
+      <td><p>Complete or unique part of the simulation name</p></td>
     </tr>
     </table>
 
     <h2 class="hasAnchor" id="value"><a class="anchor" href="#value"></a>Value</h2>
 
     <p>A list with all read csv Files</p>
-
-
 
   </div>
   <div class="col-md-3 hidden-xs hidden-sm" id="pkgdown-sidebar">
