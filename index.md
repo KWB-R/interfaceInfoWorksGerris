@@ -4,8 +4,6 @@
 [![Project Status](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
 [![CRAN_Status_Badge](https://www.r-pkg.org/badges/version/kwb.infoworks)]()
 
-# kwb.infoworks
-
 This package transforms the output files from
 InfoWorks (Mass flow data) into a readable format for the Gerris
 environment.The integrated outlet IDs are tailored to Berlin.
@@ -29,9 +27,3 @@ if (! require("remotes")) {
 # Install KWB package 'kwb.infoworks' from GitHub
 remotes::install_github("KWB-R/kwb.infoworks")
 ```
-
-## Documentation
-
-Release: [https://kwb-r.github.io/kwb.infoworks](https://kwb-r.github.io/kwb.infoworks)
-
-Development: [https://kwb-r.github.io/kwb.infoworks/dev](https://kwb-r.github.io/kwb.infoworks/dev)

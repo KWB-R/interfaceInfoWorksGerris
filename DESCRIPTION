@@ -1,0 +1,32 @@
+Package: kwb.infoworks
+Title: Interface from Infoworks to Gerris
+Version: 0.0.0.9000
+Authors@R: 
+    c(person(given = "Malte",
+             family = "Zamzow",
+             role = c("aut", "cre"),
+             email = "malte.zamzow@kompetenz-wasser.de",
+             comment = c(ORCID = "0000-0002-8748-038X")),
+      person(given = "Kompetenzzentrum Wasser Berlin gGmbH (KWB)",
+             role = "cph"))
+Description: This package transforms the output files from
+    InfoWorks (Mass flow data) into a readable format for the Gerris
+    environment.The integrated outlet IDs are tailored to Berlin.
+License: MIT + file LICENSE
+URL: https://github.com/KWB-R/kwb.infoworks
+BugReports: https://github.com/KWB-R/kwb.infoworks/issues
+Imports: 
+    magrittr
+Suggests: 
+    covr,
+    knitr,
+    kwb.nextcloud,
+    rmarkdown
+Remotes:
+    github::kwb-r/kwb.nextcloud
+VignetteBuilder: 
+    knitr
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
