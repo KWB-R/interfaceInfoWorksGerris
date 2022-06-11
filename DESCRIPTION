@@ -25,10 +25,8 @@ Imports:
 Suggests: 
     covr,
     knitr,
-    kwb.nextcloud,
-    rmarkdown
-Remotes:
-    github::kwb-r/kwb.nextcloud
+    rmarkdown,
+    testthat
 VignetteBuilder: 
     knitr
 Encoding: UTF-8
