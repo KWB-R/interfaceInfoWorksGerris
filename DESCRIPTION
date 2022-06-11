@@ -25,7 +25,8 @@ Imports:
 Suggests: 
     covr,
     knitr,
-    rmarkdown
+    rmarkdown,
+    testthat
 VignetteBuilder: 
     knitr
 Encoding: UTF-8
